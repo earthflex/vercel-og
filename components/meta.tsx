@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const DOMAIN = "https://0cb3-49-49-233-191.ap.ngrok.io";
-// const DOMAIN = "";
+// const DOMAIN = "https://nextjs-vercel-og-earthflex.vercel.app";
 
 export default function Meta({
     title = "Next.js - Dynamic text generated as image",
