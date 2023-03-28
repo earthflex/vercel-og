@@ -13,8 +13,7 @@ export default async function handler(req: NextRequest) {
 
   const [clashDisplayData] = await Promise.all([clashDisplay]);
 
-  const { searchParams } = req.nextUrl;
-  const title = searchParams.get("title") || "Earthflex";
+  const title = "Next.js - Vercel/OG";
 
   return new ImageResponse(
     (
@@ -37,7 +36,7 @@ export default async function handler(req: NextRequest) {
         />
         <div
           style={{
-            fontSize: "80px",
+            fontSize: "60px",
             marginTop: "40px",
             background:
               "linear-gradient(to bottom right, #000000 21.66%, #78716c 86.47%)",
