@@ -6,7 +6,8 @@ DEMO : https://nextjs-vercel-og.vercel.app/
 - twitter : https://cards-dev.twitter.com/validator	
 - facebook : https://developers.facebook.com/tools/debug/
 - linkedin : https://www.linkedin.com/post-inspector/
-
+- line : https://poker.line.naver.jp/
+  
 First, run the development server:
 
 ```bash
